@@ -49,7 +49,20 @@ function Round2() {
   return (
     <View style={styles.container}>
       <ScrollView>
-        <Text>Página em desenvolvimento</Text>
+        <Text style={styles.title}>Adão VS Zeus</Text>
+        <Image source={require('../imagens/Round2.png')} style={styles.image}/>
+        <Text style={styles.text}>
+          Vencedor: Zeus
+        </Text>
+        <Text style={styles.text}>
+          Duração da luta: 7 minutos 13 segundos
+        </Text>
+        <Text style={styles.text}>
+          Golpe final: Golpe de Punho
+        </Text>
+        <Text style={styles.text}>
+          Placar: Humanos 0 - Deuses 2
+        </Text>
       </ScrollView>
     </View>
   )

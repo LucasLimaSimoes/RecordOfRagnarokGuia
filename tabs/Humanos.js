@@ -32,7 +32,7 @@ function LuBu() {
           Lu Bu era um guerreiro da Era dos Três Reinos na China. Ele era um incrível guerreiro e era temido como Deus da Guerra no campo de batalha. Muitos o consideram como o Guerreiro Mais Poderoso da Humanidade.
         </Text>
         <Text style={styles.text}>
-          No Ragnarok, lutou na Primeira Rodada contra o Thor. Sua parceira foi a Valquiria Randgriz, se tornando a alabarda chamada Perfuradora do Céu.
+          No Ragnarok, lutou na Round 1 contra o Thor. Sua parceira foi a Valquiria Randgriz, se tornando a alabarda chamada Perfuradora do Céu.
         </Text>
         <Image source={require('../imagens/LuBu/Randgriz.png')} style={styles.image}/>
         <Text style={styles.title}>Proesas de Combate</Text>
@@ -42,7 +42,7 @@ function LuBu() {
         <Text style={styles.text}>
           Seu golpe mais poderoso é chamado de Devoradora de Céus. É um único golpe poderoso suficiente pra partir nuvens, mas inutilizava todas as armas do Lu Bu, a exceção da sua Arma Divina.
         </Text>
-        <Image source={require('../imagens/LuBu/DevoradoradeCeus.png')} style={styles.image}/>
+        <Image source={require('../imagens/LuBu/DevoradoradeCeus.png')} style={styles.image_h}/>
         <Text style={styles.text}>
           Além disso, demonstrou ter uma alta resistência a venenos, tendo sido envenenado com uma dosagem suficiente para matar um elefante, mas conseguindo resistir e sobreviver. Também demonstrou bastante resistência a dor e ao clima.
         </Text>
@@ -56,11 +56,11 @@ function LuBu() {
         <Text style={styles.text}>
           Seu principal equipamento no Ragnarok foi sua Völundr com Randgriz, a alabarda Perfuradora do Céu. Esta arma tem a habilidade de atravessar qualquer forma de defesa, sendo capaz até de destruir o Járngreipr do Thor.
         </Text>
-        <Image source={require('../imagens/LuBu/PerfuradoradoCeu.png')} style={styles.image}/>
+        <Image source={require('../imagens/LuBu/PerfuradoradoCeu.png')} style={styles.image_h}/>
         <Text style={styles.text}>
           Pode também ser considerado como parte de seu equipamento sua montaria, a égua apelidada de Lebre Vermelha.
         </Text>
-        <Image source={require('../imagens/LuBu/LebreVermelha.png')} style={styles.image}/>
+        <Image source={require('../imagens/LuBu/LebreVermelha.png')} style={styles.image_h}/>
       </ScrollView>
     </View>
   )
@@ -70,7 +70,64 @@ function Adao() {
   return (
     <View style={styles.container}>
       <ScrollView>
-        <Text>Página em desenvolvimento</Text>
+      <Image source={require('../imagens/Adao/Adao.png')} style={styles.image}/>
+      <Text style={styles.title}>História</Text>
+      <Text style={styles.text}>
+        Adão é o primeiro homem, o Pai da Humanidade. Ele e Eva viviam no Jardim do Eden até ela ser condenada por comer o fruto proíbido, mas esse crime na verdade foi falsificado pela Serpente.
+      </Text>
+      <Text style={styles.text}>
+        Adão invadiu o local onde Eva estava sendo julgada, comendo todos os Frutos Proíbidos, e matou a Serpente. Depois, ele e Eva foram para a Terra dar início a humanidade.
+      </Text>
+      <Text style={styles.text}>
+        No Ragnarok, lutou no Round 2. Originalmente ele devia enfrentar o Shiva, mas acabou lutando contra Zeus. Sua parceira foi a Valquiria Reginleif, se tornando uma Soqueira.
+      </Text>
+      <Image source={require('../imagens/Adao/Reginleif.png')} style={styles.image}/>
+      <Text style={styles.title}>Proesas de Combate</Text>
+      <Text style={styles.text}>
+        Adão é um excelente lutador corpo-a-corpo. Até mesmo Ares adimitiu que não seria capaz de vence-lo, e Zeus também achou que Shiva não conseguiria vence-lo, por isso interviu na luta.
+      </Text>
+      <Text style={styles.text}>
+        Também é importante dizer que o Adão é feito a imagem e semelhança das divindades. Ou seja, ele é basicamente um deus no corpo de um humano. Isso lhe garante capacidades físicas comparáveis as divindades mais poderosas, ou até superiores, visto que foi capaz de continuar lutando e até fazer Zeus ceder mesmo com seu corpo sendo destruído.
+      </Text>
+      <Text style={styles.text}>
+        Adão é capaz de se mover muito mais rápido que a luz e é capaz de aguentar ser atingido pelos golpes mais poderosos de Zeus multiplas vezes.
+      </Text>
+      <Text style={styles.title}>Poderes</Text>
+      <Text style={styles.text}>
+        A principal habilidade do Adão é seu Reflexo Divino. Ao usar seus olhos, Adão pode copiar os poderes e habilidades de seres divinos.
+      </Text>
+      <Image source={require('../imagens/Adao/ReflexoDivino.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        As habilidades que se sabe que o Adão copiou foram: Soco Meteoro
+      </Text>
+      <Image source={require('../imagens/Adao/SocoMeteoro.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        Machado Divino
+      </Text>
+      <Image source={require('../imagens/Adao/MachadoDivino.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        Foi capaz até mesmo de copiar a habilidade de parar o tempo do Punho Que Ultrapssa o Tempo
+      </Text>
+      <Image source={require('../imagens/Adao/PunhoQueUltrapassaOTempo.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        Adão consegue até mesmo copiar e revidar os ataques Verdadeiros de Zeus
+      </Text>
+      <Image source={require('../imagens/Adao/VerdadeiraDireitaDeDeus.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        O Reflexo Divino permite que Adão transforme seu corpo para poder utilizar as habilidades copiadas, como visto com o caso das Garras da Serpente.
+      </Text>
+      <Image source={require('../imagens/Adao/GarrasDaSerpente.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        Adão também tem instintos quase que animalescos, e também parece poder se comunicar com os animais.
+      </Text>
+      <Text style={styles.title}>Equipamentos</Text>
+      <Text style={styles.text}>
+        O único equipamento que Adão utilizou foi sua Völundr, chamada simplesmente de Soqueira.
+      </Text>
+      <Image source={require('../imagens/Adao/Soqueira.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        No entando, mesmo enfrentando o próprio Rei dos Deuses, Adão nunca utilizou a habilidade da sua Völundr, portanto esta é desconhecida.
+      </Text>
       </ScrollView>
     </View>
   )
@@ -173,6 +230,12 @@ const styles = StyleSheet.create({
   image: {
     width: '100%',
     height: 500,
+    justifyContent: 'center',
+    resizeMode: 'contain',
+  },
+  image_h: {
+    width: '100%',
+    height: 250,
     justifyContent: 'center',
     resizeMode: 'contain',
   },

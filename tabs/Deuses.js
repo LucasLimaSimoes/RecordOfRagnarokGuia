@@ -32,7 +32,7 @@ function Thor() {
         Thor é o Deus do Trovão da mitologia nordica, também sendo considerado uma das mais poderosas deidades nordicas.
       </Text>
       <Text style={styles.text}>
-        No Ragnarok, lutou na Primeira Rodada contra o Lu Bu.
+        No Ragnarok, lutou na Round 1 contra o Lu Bu.
       </Text>
       <Text style={styles.title}>Proesas de Combate</Text>
       <Text style={styles.text}>
@@ -55,14 +55,14 @@ function Thor() {
       <Text style={styles.text}>
         Seu principal equipamento é o martelo Mjölnir. É um martelo enorme e vivo que, caso o Thor esteja enfrentando um oponente difícil, irá "despertar" e aumentar seu poder.
       </Text>
-      <Image source={require('../imagens/Thor/Mjolnir.png')} style={styles.image}/>
+      <Image source={require('../imagens/Thor/Mjolnir.png')} style={styles.image_h}/>
       <Text style={styles.text}>
         Além do seu martelo, Thor usa luvas chamadas de Járngreipr. O objetivo delas era para que o Thor não destruisse o Mjölnir antes do seu despertar. Ou seja, elas eram limitadores.
       </Text>
       <Text style={styles.text}>
         Lu Bu conseguiu destruir uma luva durante o combate e o Thor removeu a outra, julgando o Lu Bu um oponente digno.
       </Text>
-      <Image source={require('../imagens/Thor/Jarngreipr.png')} style={styles.image}/>
+      <Image source={require('../imagens/Thor/Jarngreipr.png')} style={styles.image_h}/>
       </ScrollView>
     </View>
   )
@@ -72,7 +72,50 @@ function Zeus() {
   return (
     <View style={styles.container}>
       <ScrollView>
-        <Text>Página em desenvolvimento</Text>
+      <Image source={require('../imagens/Zeus/Zeus.png')} style={styles.image}/>
+      <Text style={styles.text}>
+        Zeus é o Rei dos Deuses, e é um dos senão o mais poderoso ser divino.
+      </Text>
+      <Text style={styles.text}>
+        No Ragnarok, tomou o lugar de Shiva para lutar contra o Adão no Round 2.
+      </Text>
+      <Text style={styles.title}>Proesas de Combate</Text>
+      <Text style={styles.text}>
+        Zeus faz jús ao seu título sendo extremamente poderoso mesmo com golpes simples. Prefere lutar no mano a mano.
+      </Text>
+      <Text style={styles.text}>
+        Seus principais golpes são:
+      </Text>
+      <Text style={styles.text}>
+        Soco Meteoro
+      </Text>
+      <Image source={require('../imagens/Zeus/SocoMeteoro.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        Machado Divino
+      </Text>
+      <Image source={require('../imagens/Zeus/MachadoDivino.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        E o golpe que pegou de seu pai, Kronos, Punho Que Ultrapssa O Tempo
+      </Text>
+      <Image source={require('../imagens/Zeus/PunhoQueUltrapassaOTempo.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        Além disso, possui um grande controle muscular, sendo capaz de contrair seus musculos para ficar temporariamente mais forte. Esta forma é chamada de Modo Adamantio
+      </Text>
+      <Image source={require('../imagens/Zeus/Adamantio.png')} style={styles.image}/>
+      <Text style={styles.text}>
+        Por fim, possui as variações "Verdadeiras" de seus ataques, que são muito mais fortes que o normal, pois Zeus está usando toda sua força.
+      </Text>
+      <Text style={styles.text}>
+        A única vez que foi visto Zeus sentindo a necessidade de usar seus "Verdadeiros" ataques foi contra o Adão.
+      </Text>
+      <Image source={require('../imagens/Zeus/VerdadeiraDireitaDeDeus.png')} style={styles.image_h}/>
+      <Text style={styles.title}>Poderes</Text>
+      <Text style={styles.text}>
+        Assim como todos os outros seres divinos, Zeus tem uma pseudo-imortalidade. Além de ser muito mais poderoso que qualquer outro.
+      </Text>
+      <Text style={styles.text}>
+        Zeus tem tanto poder que até mesmo uma gota de seu sangue pode matar alguem, ou torna-lo extremamente poderoso, como visto com Hércules.
+      </Text>
       </ScrollView>
     </View>
   )
@@ -175,6 +218,12 @@ const styles = StyleSheet.create({
   image: {
     width: '100%',
     height: 500,
+    justifyContent: 'center',
+    resizeMode: 'contain',
+  },
+  image_h: {
+    width: '100%',
+    height: 250,
     justifyContent: 'center',
     resizeMode: 'contain',
   },
