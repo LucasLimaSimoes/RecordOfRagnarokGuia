@@ -72,7 +72,20 @@ function Round3() {
   return (
     <View style={styles.container}>
       <ScrollView>
-        <Text>Página em desenvolvimento</Text>
+      <Text style={styles.title}>Kojiro Sasaki VS Poseidon</Text>
+        <Image source={require('../imagens/Round3.png')} style={styles.image}/>
+        <Text style={styles.text}>
+          Vencedor: Kojiro Sasaki
+        </Text>
+        <Text style={styles.text}>
+          Duração da luta: 13 minutos 7 segundos
+        </Text>
+        <Text style={styles.text}>
+          Golpe final: Sōen Zanko Banjin Ryōran
+        </Text>
+        <Text style={styles.text}>
+          Placar: Humanos 1 - Deuses 2
+        </Text>
       </ScrollView>
     </View>
   )
@@ -173,6 +186,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent:'center',
     fontWeight: 'bold',
+    fontSize: 20,
   },
   text: {
     flex: 1,

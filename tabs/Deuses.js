@@ -125,7 +125,41 @@ function Poseidon() {
   return (
     <View style={styles.container}>
       <ScrollView>
-        <Text>Página em desenvolvimento</Text>
+        <Image source={require('../imagens/Poseidon/Poseidon.png')} style={styles.image}/>
+        <Text style={styles.text}>
+          Também chamado de Zeus dos Mares, ou Deus dos Deuses. Poseidon era considerado o ápice do que um deus pode ser.
+        </Text>
+        <Text style={styles.text}>
+          No Ragnarok, lutou no Round 3 contra Kojiro Sasaki.
+        </Text>
+        <Text style={styles.title}>Proesas de Combate</Text>
+        <Text style={styles.text}>
+          Apesar de ser um grande lutador, a maioria das tecnicas de Poseidon fazem uso de poder bruto. Entre elas pode-se destacar:
+        </Text>
+        <Text style={styles.text}>
+          Amphitrite (Ondas de Ódio). Poseidon dispara vários golpes com se tridente em um padrão circular.
+        </Text>
+        <Image source={require('../imagens/Poseidon/Amphitrite.png')} style={styles.image_h}/>
+        <Text style={styles.text}>
+          Chione Tyro Demeter (Trovão Divino). Poseidon salta por cima de seu oponente e descarrega vários ataques, como trovão caindo do céu.
+        </Text>
+        <Image source={require('../imagens/Poseidon/TrovaoDivino.png')} style={styles.image_h}/>
+        <Text style={styles.text}>
+          Medusa Alope Demeter (Enchente de 40 Dias). Poseidon ataca com tanta velocidade e por tantos ângulos que ele cerca o oponente como gotas de chuva.
+        </Text>
+        <Image source={require('../imagens/Poseidon/Enchente40Dias.png')} style={styles.image_h}/>
+        <Text style={styles.title}>Poderes</Text>
+        <Text style={styles.text}>
+          Poseidon possui todas as habilidades comuns aos seres divinos, ou seja uma pseudo-imortalidade e é muito mais poderoso que qualquer humano.
+        </Text>
+        <Text style={styles.text}>
+          Poseidon também tem a habilidade de controlar a água.
+        </Text>
+        <Text style={styles.title}>Equipamentos</Text>
+        <Text style={styles.text}>
+          O equipamento de Poseidon é seu tridente, sendo este estremamente poderoso e durável.
+        </Text>
+        <Image source={require('../imagens/Poseidon/Tridente.png')} style={styles.image_h}/>
       </ScrollView>
     </View>
   )
@@ -232,6 +266,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent:'center',
     fontWeight: 'bold',
+    fontSize: 20,
   },
   text: {
     flex: 1,

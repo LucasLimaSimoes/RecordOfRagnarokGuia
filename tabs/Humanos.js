@@ -137,7 +137,54 @@ function Kojiro() {
   return (
     <View style={styles.container}>
       <ScrollView>
-        <Text>Página em desenvolvimento</Text>
+      <Image source={require('../imagens/Kojiro/Kojiro.png')} style={styles.image}/>
+      <Text style={styles.title}>História</Text>
+      <Text style={styles.text}>
+        Entitulado Maior Perdedor da Humanidade, Kojiro nunca teve uma única vitória em sua vida. Dito isso, também nunca perdeu duas vezes pro mesmo oponente.
+      </Text>
+      <Text style={styles.text}>
+        No Ragnarok, lutou no Round 3 contra Poseidon. Sua parceira foi a Valquiria Hrist, se tornando uma espada odachi chamada Monohoshizao.
+      </Text>
+      <Image source={require('../imagens/Kojiro/Hrist.png')} style={styles.image}/>
+      <Text style={styles.title}>Proesas de Combate</Text>
+      <Text style={styles.text}>
+        Kojiro treinou a arte da espada durante toda sua vida. Através da concivência com animais, se tornou um guerreiro extremamente observante e adaptável.
+      </Text>
+      <Text style={styles.text}>
+        Graças a essa habilidade de adaptação, Kojiro desenvolveu uma habilidade chamada de Senju Musō. Esta habilidade lhe permite analisar um oponente, prever seus movimentos e, até certo ponto, torna-los seus.
+      </Text>
+      <Image source={require('../imagens/Kojiro/SenjuMuso.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        Durante sua luta com Poseidon, essa habilidade evoluiu para Manju Musō. Agora Kojiro consegue analisar não somente seus oponentes, como também todo seu arredor, aumentando ainda mais sua habilidade de adaptação.
+      </Text>
+      <Text style={styles.title}>Tecnicas de Espada</Text>
+      <Text style={styles.text}>
+        O estilo principal de combate do Kojiro é chamado Estilo Ganryu. Com este, Kojiro demonstrou as seguintes habilidades:
+      </Text>
+      <Text style={styles.text}>
+      Tsubame Gaeshi, considerada sua técnica mais forte enquanto em vida
+      </Text>
+      <Image source={require('../imagens/Kojiro/TsubameGaeshi.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        Torakiri
+      </Text>
+      <Image source={require('../imagens/Kojiro/Torakiri.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        Mas, na sua luta contra Poseidon, Kojiro evoluiu ao ponto de tomar para si as técnicas de todos aqueles que o haviam derrotado, criando o estilo Niten Ganryu.
+      </Text>
+      <Text style={styles.text}>
+        Este estilo tem somente uma técnica, chamada Sōen Zanko Banjin Ryōran
+      </Text>
+      <Image source={require('../imagens/Kojiro/SoenZankoBanjinRyoran.png')} style={styles.image_h}/>
+      <Text style={styles.title}>Equipamentos</Text>
+      <Text style={styles.text}>
+        Seu equipamento é sua Völundr, a odachi chamada Monohoshizao
+      </Text>
+      <Image source={require('../imagens/Kojiro/Monohoshizao.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        A habilidade da Hrist é chamda Re Völundr, usada para reforjar a Monohoshizao após Poseidon destruí-la. Assim como Kojiro, a Monohoshizao também evoluiu e se adaptou a seu oponente, agora sendo formada por duas espadas.
+      </Text>
+      <Image source={require('../imagens/Kojiro/MonohoshizaoReVolundr.png')} style={styles.image_h}/>
       </ScrollView>
     </View>
   )
@@ -244,6 +291,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent:'center',
     fontWeight: 'bold',
+    fontSize: 20,
   },
   text: {
     flex: 1,
