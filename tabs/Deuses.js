@@ -18,6 +18,7 @@ function DeusesStackScreen() {
       <DeusesStack.Screen name='Zerofuku/Hajun' component={Zero}/>
       <DeusesStack.Screen name='Hades' component={Hades}/>
       <DeusesStack.Screen name='Beelzebub' component={Beelzebub}/>
+      <DeusesStack.Screen name='Apolo' component={Apolo}/>
     </DeusesStack.Navigator>
   )
 }
@@ -169,7 +170,54 @@ function Hercules() {
   return (
     <View style={styles.container}>
       <ScrollView>
-        <Text>Página em desenvolvimento</Text>
+        <Image source={require('../imagens/Hercules/Hercules.png')} style={styles.image}/>
+        <Text style={styles.text}>
+          Originalmente um humano chamado Alcides, se tornou um deus após beber o sangue de Zeus. Mas, mesmo ascendendo aos céus, continuou uma pessoa tão justa que foi chamado de a Justiça dos Deuses.
+        </Text>
+        <Text style={styles.text}>
+          No Ragnarok, lutou no Round 4 contra Jack, o Estripador.
+        </Text>
+        <Text style={styles.title}>Proesas de Combate</Text>
+        <Text style={styles.text}>
+          Hércules é um grande lutador, sendo bastante proficiente tando em lutas sem armas quanto usando seu Porrete de Leão. Dito isso, seu ponto fraco é exatamente oponentes que fazem uso de estratégias de combate, ao invés de simplesmente luta frente a frente.
+        </Text>
+        <Text style={styles.text}>
+          Mesmo assim, Hércules mostrou que sua força esmagadora ainda consegue superar as mais diversas estratégias, como quando destruiu grande parte da cidade de Londres ao perceber que Jack estava usando a cidade inteira como arma.
+        </Text>
+        <Text style={styles.text}>
+          Logo após beber o sangue de Zeus, enfrentou Ares, provando ser digno de um título divino.
+        </Text>
+        <Text style={styles.title}>Poderes</Text>
+        <Text style={styles.text}>
+          Apesar de ter nascido humano, Hércules ganhou todos os poderes comuns aos deuses após beber o sangue de Zeus. Entre estes, vale mencionar a pseudo-imortalidade e capacidades físicas superiores aos humanos.
+        </Text>
+        <Text style={styles.text}>
+          Além disso, possui uma habilidade chamada Êxodo Herculiano. Usando essa tecnica, Hércules pode usar poderes relacionados aos seus 12 trabalhos, mas isso faz com que sua tatuagem se espahe pelo seu corpo, lhe causando imensa dor.
+        </Text>
+        <Image source={require('../imagens/Hercules/ExodoHerculiano.png')} style={styles.image_h}/>
+        <Text style={styles.text}>
+          Também possui a habilidade de focar sua força em determinada parte do corpo, tornando-a maior.
+        </Text>
+        <Text style={styles.title}>Equipamentos</Text>
+        <Text style={styles.text}>
+          O único equipamento que se sabe que Hércules usou foi seu Porrete de Leão. Usado em conjunto com seu Êxodo Herculiano, o Porrete de Leão pode mudar de forma e usar diferentes habilidades. As que se conhecem são:
+        </Text>
+        <Text style={styles.text}>
+          Primeiro Trabalho: Leão de Nemeia
+        </Text>
+        <Image source={require('../imagens/Hercules/PrimeiroTrabalho.png')} style={styles.image_h}/>
+        <Text style={styles.text}>
+          Sexto Trabalho: Ave de Estínfale
+        </Text>
+        <Image source={require('../imagens/Hercules/SextoTrabalho.png')} style={styles.image_h}/>
+        <Text style={styles.text}>
+          Sétimo Trabalho: Touro de Creta
+        </Text>
+        <Image source={require('../imagens/Hercules/SetimoTrabalho.png')} style={styles.image_h}/>
+        <Text style={styles.text}>
+          Décimo Segundo Trabalho: Cerberus de Hades
+        </Text>
+        <Image source={require('../imagens/Hercules/DecimoSegundoTrabalho.png')} style={styles.image}/>
       </ScrollView>
     </View>
   )
@@ -215,6 +263,16 @@ function Beelzebub() {
   )
 }
 
+function Apolo() {
+  return (
+    <View style={styles.container}>
+      <ScrollView>
+        <Text>Página em desenvolvimento</Text>
+      </ScrollView>
+    </View>
+  )
+}
+
 function Inicio({navigation}) {
   return(
     <View style={styles.container}>
@@ -228,6 +286,7 @@ function Inicio({navigation}) {
         <Button title='Zerofuku/Hajun' onPress={() => navigation.navigate('Zerofuku/Hajun')}/>
         <Button title='Hades' onPress={() => navigation.navigate('Hades')}/>
         <Button title='Beelzebub' onPress={() => navigation.navigate('Beelzebub')}/>
+        <Button title='Apolo' onPress={() => navigation.navigate('Apolo')}/>
       </ScrollView>
       <StatusBar style="auto" />
     </View>

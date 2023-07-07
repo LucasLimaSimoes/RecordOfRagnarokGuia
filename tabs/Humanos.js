@@ -18,6 +18,7 @@ function HumanosStackScreen() {
       <HumanosStack.Screen name='Buda' component={Buda}/>
       <HumanosStack.Screen name='Qin Shi Huang' component={Qin}/>
       <HumanosStack.Screen name='Nikola Tesla' component={Tesla}/>
+      <HumanosStack.Screen name='Leônidas' component={Leonidas}/>
     </HumanosStack.Navigator>
   )
 }
@@ -194,7 +195,35 @@ function Jack() {
   return (
     <View style={styles.container}>
       <ScrollView>
-        <Text>Página em desenvolvimento</Text>
+      <Image source={require('../imagens/Jack/Jack.png')} style={styles.image}/>
+      <Text style={styles.title}>História</Text>
+      <Text style={styles.text}>
+        Considerado o Maior Vilão da Humanidade e chamado pela Brunhilda como o Humano Que Mais Matou Por Desejo Pessoal, o verdadeiro nome dele é desconhecido, mas costuma ser chamado de Jack.
+      </Text>
+      <Text style={styles.text}>
+        No Ragnarok, lutou no Round 4 contra Hércules. Até agora, foi o único humano que precisou forçar sua Valquiria, Hlökk, a fazer Völundr. Hlökk se tornou as luvas que Jack usou na luta.
+      </Text>
+      <Image source={require('../imagens/Jack/Hlokk.png')} style={styles.image}/>
+      <Text style={styles.title}>Proesas de Combate</Text>
+      <Text style={styles.text}>
+        Apesar de não parecer, Jack é um grande lutador e estrategista. Ele é capaz de lanças balas de canhão com as próprias maos e até mesmo de lançar o relógio do Big Ben com as póprtias mãos.
+      </Text>
+      <Text style={styles.text}>
+        Além disso, Jack é extremamente veloz e sorrateiro, preferindo usar dessas habilidades em batalha ao invés de força bruta. Por fim, é capaz de aguentar bastante dor, além de conseguir mover seus órgãos internos para evitar ataques letais.
+      </Text>
+      <Text style={styles.title}>Poderes</Text>
+      <Text style={styles.text}>
+        Jack tem um poder especial no seu olho direito que o permite ver as emoções das pessoas por meio de cores. Essa habilidade é chamada Visão da Alma e Jack mostrou seu uso de diversas formas, desde uma espécie de detector de mentiras até mesmo manipulando as pessoas, como fez com Hlökk para força-lá a fazer Völundr.
+      </Text>
+      <Image source={require('../imagens/Jack/VisaoDaAlma.png')} style={styles.image_h}/>
+      <Text style={styles.title}>Equipamentos</Text>
+      <Text style={styles.text}>
+        O principal equipamento de Jack na sua luta foi sua Völundr. Com essas luvas, Jack pode transformar qualquer coisa que toque em uma Arma Divina capaz de ferir um Deus.
+      </Text>
+      <Image source={require('../imagens/Jack/Luvas.png')} style={styles.image_h}/>
+      <Text style={styles.text}>
+        Graças a essas luvas, Jack pode usar diversos equipamentos durante sua luta com Hércules, desde facas até guarda-chuvas, o relógio do Big Ben e até mesmo seu próprio sangue.
+      </Text>
       </ScrollView>
     </View>
   )
@@ -240,6 +269,16 @@ function Tesla() {
   )
 }
 
+function Leonidas() {
+  return (
+    <View style={styles.container}>
+      <ScrollView>
+        <Text>Página em desenvolvimento</Text>
+      </ScrollView>
+    </View>
+  )
+}
+
 function Inicio({navigation}) {
   return (
     <View style={styles.container}>
@@ -253,6 +292,7 @@ function Inicio({navigation}) {
         <Button title='Buda' onPress={() => navigation.navigate('Buda')}/>
         <Button title='Qin Shi Huang' onPress={() => navigation.navigate('Qin Shi Huang')}/>
         <Button title='Nikola Tesla' onPress={() => navigation.navigate('Nikola Tesla')}/>
+        <Button title='Leônidas' onPress={() => navigation.navigate('Leônidas')}/>
       </ScrollView>
       <StatusBar style="auto" />
     </View>

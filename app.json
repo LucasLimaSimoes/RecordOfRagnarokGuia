@@ -2,7 +2,7 @@
   "expo": {
     "name": "RoR",
     "slug": "RoR",
-    "version": "1.0.0",
+    "version": "0.0.4",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "RoR.com"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bef7215f-525e-416d-a425-c881ab9616bb"
+      }
     }
   }
 }

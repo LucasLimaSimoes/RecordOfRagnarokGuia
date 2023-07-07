@@ -18,6 +18,7 @@ function LutasStackScreen () {
       <LutasStack.Screen name='Round 6' component={Round6}/>
       <LutasStack.Screen name='Round 7' component={Round7}/>
       <LutasStack.Screen name='Round 8' component={Round8}/>
+      <LutasStack.Screen name='Round 9' component={Round9}/>
     </LutasStack.Navigator>
   )
 }
@@ -95,7 +96,20 @@ function Round4() {
   return (
     <View style={styles.container}>
       <ScrollView>
-        <Text>Página em desenvolvimento</Text>
+      <Text style={styles.title}>Jack, O Estripador VS Hércules</Text>
+        <Image source={require('../imagens/Round4.png')} style={styles.image}/>
+        <Text style={styles.text}>
+          Vencedor: Jack, O Estripador
+        </Text>
+        <Text style={styles.text}>
+          Duração da luta: 26 minutos 57 segundos
+        </Text>
+        <Text style={styles.text}>
+          Golpe final: Querido Deus
+        </Text>
+        <Text style={styles.text}>
+          Placar: Humanos 2 - Deuses 2
+        </Text>
       </ScrollView>
     </View>
   )
@@ -141,6 +155,16 @@ function Round8() {
   )
 }
 
+function Round9() {
+  return (
+    <View style={styles.container}>
+      <ScrollView>
+        <Text>Página em desenvolvimento</Text>
+      </ScrollView>
+    </View>
+  )
+}
+
 function Inicio({navigation}) {
   return(
     <View style={styles.container}>
@@ -154,6 +178,7 @@ function Inicio({navigation}) {
         <Button title='Round 6' onPress={() => navigation.navigate('Round 6')}/>
         <Button title='Round 7' onPress={() => navigation.navigate('Round 7')}/>
         <Button title='Round 8' onPress={() => navigation.navigate('Round 8')}/>
+        <Button title='Round 9' onPress={() => navigation.navigate('Round 9')}/>
       </ScrollView>
       <StatusBar style="auto" />
     </View>

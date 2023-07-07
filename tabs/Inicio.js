@@ -17,7 +17,7 @@ export default function Inicio() {
           Há cada 1000 anos, deuses de todos os panteões se reunem em uma conferencia para decidir o destino da humanidade, e dessa vez eles votaram pelo exterminio.
         </Text>
         <Text style={styles.text}>
-          No entanto, a Valquiria Brunilda fez uso do Artigo 62, Paragráfo 15 da Cláusula Super Especial da Constituição de Valhalla, dando mais uma chance para a humanidade.
+          No entanto, a Valquiria Brunhilda fez uso do Artigo 62, Paragráfo 15 da Cláusula Super Especial da Constituição de Valhalla, dando mais uma chance para a humanidade.
         </Text>
         <Text style={styles.text}>
           Agora, 13 representantes da humanidade irão enfrentar 13 representantes dos deuses em uma série de lutas 1 contra 1. Caso a humanidade vença, terá mais 1000 anos de existência, e será exterminada caso perca.
